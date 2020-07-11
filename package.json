@@ -1,0 +1,17 @@
+{
+  "name": "ramdinha",
+  "version": "1.0.0",
+  "description": "My little ramda.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha 'test/*.js'"
+  },
+  "author": "Nubank Crew",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^7.1.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}

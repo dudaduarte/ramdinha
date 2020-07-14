@@ -3,6 +3,7 @@ const complement = require('./complement')
 const curry = require('./curry')
 const equals = require('./equals')
 const identity = require('./identity')
+const map = require('./map')
 const memoize = require('./memoize')
 
 module.exports = {
@@ -11,5 +12,6 @@ module.exports = {
   curry,
   equals,
   identity,
+  map,
   memoize
 }

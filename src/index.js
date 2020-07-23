@@ -1,4 +1,5 @@
 const always = require('./always')
+const call = require('./call')
 const complement = require('./complement')
 const compose = require('./compose')
 const curry = require('./curry')
@@ -11,6 +12,7 @@ const pipe = require('./pipe')
 
 module.exports = {
   always,
+  call,
   complement,
   compose,
   curry,

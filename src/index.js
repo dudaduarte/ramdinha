@@ -6,6 +6,7 @@ const equals = require('./equals')
 const identity = require('./identity')
 const map = require('./map')
 const memoize = require('./memoize')
+const pipe = require('./pipe')
 
 module.exports = {
   always,
@@ -15,5 +16,6 @@ module.exports = {
   equals,
   identity,
   map,
-  memoize
+  memoize,
+  pipe
 }

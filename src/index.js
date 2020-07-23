@@ -3,6 +3,7 @@ const complement = require('./complement')
 const compose = require('./compose')
 const curry = require('./curry')
 const equals = require('./equals')
+const flip = require('./flip')
 const identity = require('./identity')
 const map = require('./map')
 const memoize = require('./memoize')
@@ -14,6 +15,7 @@ module.exports = {
   compose,
   curry,
   equals,
+  flip,
   identity,
   map,
   memoize,

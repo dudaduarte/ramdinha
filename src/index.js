@@ -6,6 +6,7 @@ const curry = require('./curry')
 const equals = require('./equals')
 const flip = require('./flip')
 const identity = require('./identity')
+const inc = require('./inc')
 const map = require('./map')
 const memoize = require('./memoize')
 const path = require('./path')
@@ -20,6 +21,7 @@ module.exports = {
   equals,
   flip,
   identity,
+  inc,
   map,
   memoize,
   path,

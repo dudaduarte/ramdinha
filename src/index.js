@@ -11,6 +11,7 @@ const map = require('./map')
 const memoize = require('./memoize')
 const path = require('./path')
 const pipe = require('./pipe')
+const prop = require('./prop')
 
 module.exports = {
   always,
@@ -25,5 +26,6 @@ module.exports = {
   map,
   memoize,
   path,
-  pipe
+  pipe,
+  prop
 }

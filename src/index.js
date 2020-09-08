@@ -8,6 +8,7 @@ const flip = require('./flip')
 const identity = require('./identity')
 const map = require('./map')
 const memoize = require('./memoize')
+const path = require('./path')
 const pipe = require('./pipe')
 
 module.exports = {
@@ -21,5 +22,6 @@ module.exports = {
   identity,
   map,
   memoize,
+  path,
   pipe
 }

@@ -1,0 +1,2 @@
+# ramdinha
+my little ramda ✨
